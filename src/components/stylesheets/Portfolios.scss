@@ -1,0 +1,27 @@
+.cardcol {
+  margin: 0.2em 0.8em;
+  column-count: 3;
+}
+
+.titleContainer {
+  height: 200px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .cardcol {
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .cardcol {
+    column-count: 1;
+  }
+  .titleContainer {
+    height: auto;
+  }
+}
