@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Jumbotron, Container, Row, Col } from "reactstrap";
+import portrait from "../static/portrait200x200.jpg";
 class Hero extends Component {
   render() {
     return (
@@ -15,10 +16,14 @@ class Hero extends Component {
                   height: "100%"
                 }}
               >
-                <img src="https://unsplash.it/100" alt="my logo" />
+                <img src={portrait} alt="Augustine Wong" />
               </div>
             </Col>
-            <Col xs="12" sm="8">
+            <Col
+              xs="12"
+              sm="8"
+              className="d-flex flex-column align-self-center"
+            >
               <h1 className="text-sm-left">Hello, I'm Augustine Wong</h1>
               <p className="lead text-justify">
                 A self taught web developer focusing on{" "}

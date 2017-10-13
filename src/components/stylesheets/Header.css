@@ -1,6 +1,12 @@
 li {
   margin: 0.5em; }
 
+header {
+  background: rgba(255, 255, 255, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 5; }
+
 a {
   text-decoration: none;
   color: inherit;
@@ -13,10 +19,4 @@ a {
   .navbar-brand {
     display: none !important; }
   .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 5;
-    width: 100vw;
-    justify-content: center;
-    background-color: #fff; } }
+    justify-content: center; } }
