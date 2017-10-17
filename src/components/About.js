@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
+import "./stylesheets/About.css";
+import augustineResume from "../static/AugustineWong_Resume.pdf";
 class About extends Component {
   render() {
     return (
@@ -16,18 +18,12 @@ class About extends Component {
                 href="https://www.freecodecamp.org/"
                 target="_blank"
                 rel="noopener noreferrer external"
-                style={{
-                  textDecoration: "none",
-                  cursor: "pointer",
-                  color: "#000",
-                  fontWeight: "600"
-                }}
               >
                 FreeCodeCamp
               </a>{" "}
               and other online resources.
               <br />
-              Download my Resume <a>here</a>
+              Download my Resume <a href={augustineResume}>here</a>.
             </p>
             <br />
           </Col>

@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+  font-weight: 600;
+
+  &:hover {
+    color: #000;
+
+    text-decoration: underline;
+  }
+}
